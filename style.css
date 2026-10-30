@@ -1,0 +1,569 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 120px;
+  margin-right: 150px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(60, 104, 60);
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 150px;
+  margin-top: 40px;
+}
+
+.text p {
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+.text h1 {
+  margin-bottom: 20px;
+  width: 90%;
+  line-height: 1.3;
+  font-size: 55px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hero-section .health {
+  font-size: 18px;
+}
+
+.hero-section button a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-section button {
+  background-color: rgb(18, 77, 18);
+  padding: 10px;
+  border: none;
+}
+
+.image img {
+  height: 430px;
+  width: 550px;
+}
+
+/* .sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  background-color: rgb(18, 77, 18);
+  color: white;
+  padding-left: 120px;
+  padding-right: 150px;
+}
+
+.sec img {
+  margin-top: 50px;
+}
+
+.sec h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.sec p {
+  width: 300px;
+  margin-bottom: 30px;
+} */
+
+.sec{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(18, 77, 18);
+  padding: 100px;
+  color: white;
+  line-height: 1.5;
+  
+}
+.services {
+    background-color: whitesmoke;
+  padding: 60px 8%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.services h1 {
+  font-size: 55px;
+  line-height: 1.1;
+}
+
+.intro {
+  width: 370px;
+}
+
+.intro p {
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* .a {
+    text-decoration: none;
+    color: inherit;
+} */
+
+.intro a {
+  display: inline-block;
+  background: rgb(18, 77, 18);
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  border: 1px solid;
+  padding: 30px;
+  background-color: white;
+  /* width: 200px; */
+}
+.card span {
+  margin-bottom: 15px;
+  font-size: 23px;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.card p {
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.card a {
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.appointment {
+  display: flex;
+  gap: 30px;
+  padding: 40px 25px;
+}
+
+.appointment-form {
+  width: 55%;
+  padding: 20px 0;
+}
+
+.appointment h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: normal;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.decoration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.decoration span {
+  width: 45px;
+  height: 2px;
+  background-color: #ccc;
+}
+/* 
+p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+} */
+
+.input-group {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 35px;
+}
+
+input {
+  width: 50%;
+  height: 45px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+textarea {
+  width: 100%;
+  height: 110px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.appoint {
+  padding: 18px 20px;
+  background-color: #397f89;
+  color: white;
+  border: none;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.appointment-image {
+  width: 45%;
+}
+
+.appointment-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.feedback {
+     background-color: rgb(18, 77, 18); 
+    color: white;
+    padding-bottom: 50px;
+}
+
+.feedback h3{
+  margin-bottom: 10px;
+  padding-top: 20px;
+  margin-left: 20px; 
+  font-size: larger;  
+}
+
+.feedback p{
+  margin-left: 20px;
+  font-size: large;
+
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+  
+.person1{
+  border: 2px solid;
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
+
+.person2{
+  border: 2px solid;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border-right: 50px;
+}
+
+.person3{
+  border:2px solid; 
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
+
+.reveal{
+    display: flex;
+    gap: 70px;
+    padding-top: 25px;
+}
+
+.bigi{
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.news{
+  background-color: whitesmoke;
+  padding-top: 25px;
+}
+
+.news h3{
+  font-size: 20px;
+  
+}
+
+.tips{
+  padding-top: 20px;
+  text-align: center;
+  
+}
+
+.tips h5{
+  font-size: 20px;
+
+}
+
+
+
+.car{
+  display: flex;
+  justify-content: space-between;
+  margin: 80px;
+  padding: 30px;
+  margin-top: 30px;
+}
+ 
+.car a{
+  color: green;
+  text-decoration: none;
+}
+
+.car img{
+  height: 250px;
+  width: 300px;
+}
+.car h3{
+  color: green;
+}
+
+.car h4{
+  width: 230px;
+  font-size: larger;
+  line-height: 1.3;
+  font-style: oblique;
+  padding: 10px 0;
+}
+
+.car p{
+  width: 260px;
+}
+  
+
+.car a{
+  color: green;
+  text-decoration: none;
+}
+
+.fruit{
+   border: 2px;
+  padding: 5px;
+  background-color: white;
+}
+
+.virus{
+   border: 2px;
+  padding: 5px;
+  background-color: white;
+}
+
+.drug{
+  border: 2px;
+  padding: 5px;
+  background-color: white;
+}
+
+
+.more {
+  margin-top: 3px;
+  margin-left: 600px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.more a{
+  text-decoration: none;
+  color: white;
+   background-color: rgb(18, 77, 18);
+   padding: 10px;
+}
+
+.last{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  rgb(18, 77, 18);
+  color: white;
+  padding: 25px;
+  
+}
+
+.last h3{
+  margin-bottom: 10px;
+}
+
+.last ul{
+
+}
+
+.last ul li{
+  list-style: none;
+  line-height: 1.3;
+}
+
+.last ul li a{
+  text-decoration: none;
+  color: white;
+  gap: 30px;
+  letter-spacing: normal;
+  word-spacing: 2px;
+}
+
+
+
+@media only screen and (max-width:850px){
+  .navbar {
+  margin: 0;
+}
+.navbar ul li{
+  display: none;
+}
+.hero-section {
+  margin: 0;
+  flex-direction: column;
+}
+.text h1{
+  font-size: 40px;
+  /* width: 0%; */
+}
+.sec{
+ flex-direction: column;
+}
+.sec div{
+  padding-bottom: 20px;
+}
+
+.sec div p{
+  width: 260px;
+}
+
+.top{
+  flex-direction: column;
+}
+
+.cards{
+  flex-direction: column;
+}
+
+.appointment{
+  flex-direction: column;
+}
+
+.appointment p{
+  width: 290px;
+}
+
+.appointment-form {
+  width: 100%;
+}
+
+.input-group{
+  flex-direction: column;
+}
+
+.type{
+  width: 500px;
+}
+
+input{
+  width: 60%;
+}
+
+textarea{
+  width: 300px;
+}
+
+.appointment{
+  padding: 0;
+}
+
+.appointment-image img {
+  width: 350px;
+  /* height: 100%; */
+}
+
+.feedback{
+  flex-direction: column;
+}
+
+.person{
+  flex-direction: column;
+}
+
+.news{
+  flex-direction: column;
+}
+
+.car{
+  flex-direction: column;
+  margin: 0;
+}
+
+.last{
+  flex-direction: column;
+}
+
+.were{
+  padding-left: 30px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
